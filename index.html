@@ -43,7 +43,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Disabled</a></li>
+          <a class="nav-link disabled" href="#">Disabled</a></li>
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search">
@@ -62,6 +62,28 @@
   <button class="btn btn-danger">Danger</button>
   <button class="btn btn-warning">Warning</button>
 </div>
+
+<h2 class="mt-5">Accordion: Game Info</h2>
+<div class="accordion" id="gameAccordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+        About the Game
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        Super Mario is a legendary platformer series by Nintendo. You can play as Mario, Luigi, or even Peach!
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="mt-5">Alert: Notification</h2>
+<div class="alert alert-success" role="alert">
+  Your character was selected successfully!
+</div>
+
 
 <h2>Cards</h2>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">

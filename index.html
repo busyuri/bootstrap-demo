@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<style>
+  .custom-bg{
+    background-color: #ffcccc;
+  }
+</style>
+
+<body class="container py-4 bg-body">
+<h1 class="text-center mb-4">Bootstrap Demo</h1>
+
+<h2>Navbar</h2>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand">Super Mario</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#">Item 1</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Item 2</a></li>
+            <li>
+              <hr class="dropdown-divider"></li>
+            <li>
+              <a class="dropdown-item" href="#">Item 3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Disabled</a></li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<h2>Buttons in Bootstrap</h2>
+<div class="mb-4 d-flex flex-wrap gap-2">
+  <button class="btn btn-primary rounded-pill">Primary</button>
+  <button class="btn btn-secondary">Secondary</button>
+  <button class="btn btn-success">Success</button>
+  <button class="btn btn-danger">Danger</button>
+  <button class="btn btn-warning">Warning</button>
+</div>
+
+<h2>Cards</h2>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+
+  <!-- Mario -->
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/My%20Nintendo%20Store/EN-US/MNS%20HOME/General/Updated%20Mushroom%20Kingdom%20Assets/Mario-CharacterBubble" class="card-img-top" alt="Mario">
+      <div class="card-body">
+        <h5 class="card-title">Mario</h5>
+        <p class="card-text">A fearless plumber with a red cap. He’s always ready to rescue Princess Peach and defeat Bowser.</p>
+        <a href="#" class="btn btn-danger">Jump into Action</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Luigi -->
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/My%20Nintendo%20Store/EN-US/MNS%20HOME/General/Updated%20Mushroom%20Kingdom%20Assets/Luigi-CharacterBubble" class="card-img-top" alt="Luigi">
+      <div class="card-body">
+        <h5 class="card-title">Luigi</h5>
+        <p class="card-text">Mario’s taller, green-clad brother. A little timid, but brave when it counts — especially in haunted mansions!</p>
+        <a href="#" class="btn btn-success">Explore with Luigi</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Princess Peach -->
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/en_US/characters/mushroom-kingdom/char-peach" class="card-img-top" alt="Peach">
+      <div class="card-body">
+        <h5 class="card-title">Princess Peach</h5>
+        <p class="card-text">The kind-hearted ruler of the Mushroom Kingdom. More than a damsel — she’s a leader with courage.</p>
+        <a href="#" class="btn btn-warning">Play as Peach</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bowser -->
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/en_US/characters/mushroom-kingdom/char-bowser" class="card-img-top" alt="Bowser">
+      <div class="card-body">
+        <h5 class="card-title">Bowser</h5>
+        <p class="card-text">The King of the Koopas. Strong, scary, and always scheming to kidnap Peach and conquer the kingdom.</p>
+        <a href="#" class="btn btn-dark">Challenge Bowser</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Yoshi -->
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/en_US/characters/mushroom-kingdom/char-yoshi" class="card-img-top" alt="Yoshi">
+      <div class="card-body">
+        <h5 class="card-title">Yoshi</h5>
+        <p class="card-text">A friendly green dinosaur who helps Mario and friends with his long tongue, flutter jump, and eggs.</p>
+        <a href="#" class="btn btn-success">Ride with Yoshi</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toad -->
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_300/ncom/en_US/characters/mushroom-kingdom/char-toad" class="card-img-top" alt="Toad">
+      <div class="card-body">
+        <h5 class="card-title">Toad</h5>
+        <p class="card-text">Loyal attendant to Princess Peach. Energetic, helpful, and always ready to go on an adventure!</p>
+        <a href="#" class="btn btn-info">Go with Toad</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

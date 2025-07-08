@@ -32,4 +32,4 @@ The goal of this mini project was to showcase commonly used Bootstrap components
 
 ## Credits
 
-Created by Buse Okcu and Irmak Damla Özdemir as part of a technical presentation for the Frontend Development course.
+Created by [Buse Okcu](https://github.com/bussyyr) and [Irmak Damla Özdemir](https://github.com/irmakozfe) as part of a technical presentation for the Frontend Development course.
